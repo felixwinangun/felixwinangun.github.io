@@ -1,0 +1,71 @@
+body{
+    background-color: whitesmoke;
+    font-size: 30px;
+}
+
+a{
+    color: bisque
+}   
+
+#form a, #form label{
+    color: olive;
+}
+
+#greeting{
+    display: none;
+    color: LightSlateGrey;
+}
+
+#greeting, #stopwatch{
+    font-size: 30px;
+}
+  
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-shadow: 1px 1px 0px #fff;
+    background: #eaebec;
+    border: #ccc 1px solid;
+    font-size: 20px;
+}
+  
+table th {
+    padding: 15px 35px;
+    border-left:1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background: #ededed;
+}
+  
+table tr {
+    text-align: center;
+    padding-left: 20px;
+}
+  
+table td {
+    padding: 15px 35px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #fafafa;
+}
+
+table tr:hover td {
+    background: #f2f2f2;
+}
+
+#jumbotron{
+    background-color: rgba(250, 128, 114, 0.4);
+    padding: 1%;
+    width: 30vw;
+    margin: 2%;
+    border-radius: 25px;
+}
+
+#stopwatch {
+    color: LightSlateGrey;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+
+<body>
+    <center>
+        <div id="form" onsubmit="return false;">
+        <!-- <div id="form"> -->
+            <form>
+                <div>
+                    <label for="username">Enter your name: </label> <br>
+                    <input type="text" name="name" id="username"> <br>
+                </div>
+                <div>
+                    <br><a href="#" id="enterBtn"><i class="far fa-arrow-alt-circle-right sa-sm"></i></a>
+                    <!-- <button actio type="button" style="display: none;"></button> -->
+                </div>
+
+            </form>
+        </div>
+    </center>
+    <center>
+        <div id="greeting"></div>
+    </center>
+    <center>
+        <div id="stopwatch" style="display: none;">
+            <div id="jumbotron">
+                <div>
+                    <h1>
+                        <label id="minute">00</label> : <label id="second">00</label> : <label id="ms">00</label>
+                    </h1>
+                </div>
+                <div id="btnControl">
+                    <h1>
+                        <a href="#" id="start"><i class="far fa-play-circle fa-sm"></i></a>
+                        <a href="#" id="record"><i class="far fa-clipboard fa-sm"></i></a>
+                        <a href="#" id="pause"><i class="far fa-pause-circle fa-sm"></i></a>
+                        <a href="#" id="stop"><i class="far fa-stop-circle fa-sm"></i></a>
+                    </h1>
+                </div>
+            </div>
+            <div>
+                <table id="recordList">
+                    <thead>
+                        <tr>
+                            <th>No. </th>
+                            <th>Records</th>
+                        </tr>
+                    </thead>
+                    <tbody id="recordTable"></tbody>
+                </table>
+            </div>
+        </div>
+    </center>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
